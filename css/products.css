@@ -1,0 +1,81 @@
+.partie1{
+    display: flex;
+   margin-left:3px;
+   margin-bottom: 20px;
+  
+}
+.text{
+    font-size: 80px;
+    font-family: cursive;
+    margin-top: -3cm;
+}
+.paragraphe{
+    font-size: 10px;
+    font-family: cursive;
+    color: rgb(44, 43, 43);
+    margin-left: 5cm;
+    margin-right: 5cm;
+    margin-top: -2cm;
+}
+.titre{
+    font-size: 40px;
+    font-family: cursive;
+    margin-top: 2cm;
+}
+.card{
+	height: 390px;
+	position: relative;
+	background-color: #ffffff;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	box-shadow: #444444 5px 5px 5px 5px;
+	
+}
+.card a{
+	text-decoration: none;
+	text-align: center;
+}
+.photos{
+	height: 170px;
+}
+.photos img{
+	margin-top: 10px;
+	max-width: 100%;
+	max-height: 100%;
+}
+.details{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+	font-size: 20px;
+	line-height: 35px;
+}
+.add{
+	margin-top: 20px;
+	position: absolute;
+	bottom: 0px;
+	height: 45px;
+	
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.add button{
+	height: 45px;
+	background-color: #9b9b9b;
+	width: 100%;
+	color: #111;
+	font-weight: bold;
+	font: bold 18px sans-serif;
+	cursor: pointer;
+	border: none;
+}
+.add button:hover{
+	background-color:#b3b3b3;
+}
